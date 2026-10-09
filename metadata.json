@@ -1,0 +1,6 @@
+{
+  "name": "TaskFlow - Modern Task Management SaaS",
+  "description": "Production-ready Task Management Application with JWT authentication, dashboard analytics, task CRUD, filtering, sorting, and user profile management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

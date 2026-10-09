@@ -1,0 +1,82 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "demo@taskflow.dev",
+      "full_name": "Alex Johnson",
+      "hashed_password": "$2b$10$lB/sWu1/Kw3jCHCa5yOfbOje76UAKyXRyLFYnV5UKYBLgWBmh6KX2",
+      "created_at": "2026-09-25T05:22:38.047Z",
+      "updated_at": "2026-10-09T06:08:19.877Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "title": "Review Quarterly System Architecture & API Security",
+      "description": "Conduct a thorough code audit of backend JWT auth, rate limits, and PostgreSQL query optimizations before production launch.",
+      "status": "in_progress",
+      "priority": "high",
+      "due_date": "2026-10-11T05:22:38.048Z",
+      "created_at": "2026-10-06T05:22:38.048Z",
+      "updated_at": "2026-10-08T05:22:38.048Z"
+    },
+    {
+      "id": 2,
+      "user_id": 1,
+      "title": "Design Dark Mode & Accessible Color Palette",
+      "description": "Ensure color contrast meets WCAG AAA standards for all status badges, tags, and dashboard cards.",
+      "status": "pending",
+      "priority": "medium",
+      "due_date": "2026-10-07T00:00:00.000Z",
+      "created_at": "2026-10-03T05:22:38.048Z",
+      "updated_at": "2026-10-09T05:57:29.822Z"
+    },
+    {
+      "id": 3,
+      "user_id": 1,
+      "title": "Implement Database Connection Pooling for Neon",
+      "description": "Configure PgBouncer connection pooling and SSL certificates for optimal serverless performance.",
+      "status": "pending",
+      "priority": "high",
+      "due_date": "2026-10-08T05:22:38.048Z",
+      "created_at": "2026-10-04T05:22:38.048Z",
+      "updated_at": "2026-10-04T05:22:38.048Z"
+    },
+    {
+      "id": 4,
+      "user_id": 1,
+      "title": "Draft User Onboarding Documentation and Guides",
+      "description": "Create interactive guides for quick task creation, bulk actions, and keyboard shortcuts.",
+      "status": "in_progress",
+      "priority": "low",
+      "due_date": "2026-10-14T05:22:38.048Z",
+      "created_at": "2026-10-07T05:22:38.048Z",
+      "updated_at": "2026-10-09T05:22:38.048Z"
+    },
+    {
+      "id": 5,
+      "user_id": 1,
+      "title": "Setup Automated CI/CD Pipeline on Render & Vercel",
+      "description": "Write GitHub actions workflow for linting, frontend build verification, and automated smoke testing.",
+      "status": "completed",
+      "priority": "medium",
+      "due_date": "2026-10-05T05:22:38.048Z",
+      "created_at": "2026-10-01T05:22:38.048Z",
+      "updated_at": "2026-10-05T05:22:38.048Z"
+    },
+    {
+      "id": 6,
+      "user_id": 1,
+      "title": "Conduct User Experience Feedback Session",
+      "description": "Gather feedback from 5 beta users on task filtering speed, mobile navigation responsiveness, and modal usability.",
+      "status": "pending",
+      "priority": "medium",
+      "due_date": "2026-10-16T05:22:38.048Z",
+      "created_at": "2026-10-08T05:22:38.048Z",
+      "updated_at": "2026-10-08T05:22:38.048Z"
+    }
+  ],
+  "nextUserId": 2,
+  "nextTaskId": 7
+}
